@@ -1,11 +1,11 @@
 import React from "react";
 import "./contact.css";
-import {HiOutlineMail } from "react-icons/hi";
+import { HiOutlineMail } from "react-icons/hi";
 import { FiLinkedin, FiGithub } from "react-icons/fi";
 
 function Contact (){
     return (
-        <section>
+        <section id="contact">
             <h5>Get in Touch</h5>
             <h2>Contact Me</h2>
 
