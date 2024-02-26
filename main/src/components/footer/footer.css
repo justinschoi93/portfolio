@@ -18,7 +18,7 @@ footer {
     display: inline-block;
   }
   
-  .permaLinks {
+  .permalinks {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -74,7 +74,7 @@ footer {
   
   /* ----- SMALL MEDIA QUERY ----- */
   @media screen and (max-width: 600px) {
-    .permaLinks {
+    .permalinks {
       flex-direction: column;
       gap: 1rem;
     }
