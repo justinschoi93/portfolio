@@ -8,6 +8,9 @@ header {
     position: relative;
 }
 
+.header__container a{
+    color: var(--color-primary);
+}
 /* ------ CTA Styling ------ */
 .cta {
     margin-top: 2.5rem;
@@ -26,6 +29,11 @@ header {
     left: 0;
     bottom: 3rem;
     font-size: 2rem;
+}
+
+.header__socials a {
+    color: var(--color-primary);
+    transition: color 0.3s;
 }
 
 .header__socials::after {
