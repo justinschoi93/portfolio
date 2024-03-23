@@ -4,14 +4,14 @@ import "./project.css";
 const data = [
     {
       id: 1,
-      image: cover1,
+      image: "",
       title: "",
       github: "",
       demo: "",
     },
     {
       id: 2,
-      image: cover2,
+      image: "",
       title: "",
       github: "",
       demo: "",

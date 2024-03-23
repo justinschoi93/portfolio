@@ -19,23 +19,23 @@ function About () {
                 <div className="about__content">
                     <div className="about__cards">
                         <article className="about__card">
-                            <icon className="about__icon">
+                            <svg className="about__icon">
                                 <FaAward/>
-                            </icon>
+                            </svg>
                             <h5>Experience</h5>
                             <small>X Years Working</small>
                         </article>
                         <article className="about__card">
-                            <icon className="about__icon">
+                            <div className="about__icon">
                                 <FaUsers/>
-                            </icon>
+                            </div>
                             <h5>Clients</h5>
                             <small>X+ Worldwide</small>
                         </article>
                         <article className="about__card">
-                            <icon className="about__icon">
+                            <div className="about__icon">
                                 <FaTasks/>
-                            </icon>
+                            </div>
                             <h5>Projects</h5>
                             <small>X+ Completed</small>
                         </article>
