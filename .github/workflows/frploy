@@ -1,0 +1,29 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16' # Specify the Node.js version you're using
+
+    - name: Install Dependencies
+      run: npm ci
+
+    - name: Build
+      run: npm run build
+
+    - name: Deploy to GitHub Pages
+      uses: actions/deploy-pages@v4
+      with:
+        path: ./dist # Adjust if your build output directory is different
