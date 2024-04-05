@@ -1,17 +1,16 @@
 import React from "react";
 import "./about.css";
+import jPinguino777 from '../../assets/jPinguino777.jpg';
 import { FaAward, FaUsers, FaTasks } from "react-icons/fa";
 
 function About () {
     return (
         <section id="about">
-            <h5>Get to Know</h5>
             <h2>About Me</h2>
-
             <div className="container about__container">
                 <div className="about__me">
                     <div className="about__me-image">
-                        <img src={""} alt="Creator in About Section" />
+                        <img src={jPinguino777} alt="Creator in About Section" />
                     </div>
                 </div>
            
