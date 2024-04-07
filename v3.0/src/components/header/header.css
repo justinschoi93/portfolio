@@ -32,6 +32,7 @@
     align-items: center;
     font-size: var(--small-font-size);
     color: var(--title-color);
+    font-weight: var(--font-medium);
     transition: .3s;
 }
 
@@ -48,12 +49,13 @@
 }
 
 /* Change header background */
-.scroll-header {
+ .scroll-header {
     box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15); 
 }
 
 /* ============= BREAKPOINTS ================ */
 /* medium devices */
+
 @media screen and (max-width: 768px){
     .header {
         top: initial;
@@ -81,7 +83,7 @@
     }
 
     .nav__list {
-
+        column-gap: 0;
     }
 
     
