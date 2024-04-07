@@ -21,7 +21,7 @@ export default function Header () {
                     Choi
                 </a>
                 <div className={ Toggle ? "nav__menu show__menu" : "nav__menu" }>
-                    <ul className="nav__list">
+                    <ul className="nav__list grid">
                         <li className="nav__item">
                             <a href="#home" 
                                 onClick={() => setActiveNav("#home")}
@@ -97,7 +97,6 @@ export default function Header () {
                     <i className="uil uil-apps"></i> 
                 </div>
             </nav>
-            <h1>My Portfolio</h1>
         </header>
     )
 }
