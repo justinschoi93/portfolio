@@ -1,6 +1,5 @@
 import './home.css';
 import jPinguino777 from '../../assets/jpinguino777.jpg';
-import MouseIcon from '../../assets/mouse.jsx';
 
 export default function Home () {
     return (
@@ -82,7 +81,7 @@ export default function Home () {
                                     strokeWidth: "20px",
                                     }}
                                 ></path>
-                                </svg>
+                            </svg>
                             <span className="home__scroll-name">Scroll Down</span>
                             <i className="uil uil-arrow-down home__scroll-arrow"></i>
                         </a>
