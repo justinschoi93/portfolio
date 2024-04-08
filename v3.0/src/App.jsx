@@ -16,16 +16,19 @@ function App() {
   return (
     <>
       <Header/>
-      <Home/>
-      <AboutMe/>
-      <CONTACT/>
-      {/* <PORTFOLIO/>
-      <Qualifications/>
-      <ScrollUp/>
-      <Services/>
-      <Skills/>
-      <Testimonials/> 
-      */}
+
+      <main className="main">
+        <Home/>
+        <AboutMe/>
+        <CONTACT/>
+        {/* <Skills/> */}
+        {/* <PORTFOLIO/> */}
+        {/* <Qualifications/> */}
+        {/* <Services/> */}
+        {/* <Testimonials/>  */}
+      </main>
+
+      {/* <ScrollUp/> */}
       <Footer/>
     </>
   )

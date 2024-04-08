@@ -1,6 +1,10 @@
 import './contact.css';
+import { useRef } from 'react';
+import { SiGmail } from 'react-icons/si';
+import { FaWhatsapp, FaFacebookMessenger } from 'react-icons/fa';
 
 const CONTACT = () => {
+    const form = useRef();
     return (
         <section className="contact section" id="contact">
             <h2 className="section__title">Get in touch</h2>
@@ -9,14 +13,38 @@ const CONTACT = () => {
                 <div className="contact__content">
                     <h3 className="contact__title">Talk to me</h3>
                     <div className="contact__info">
-                        <div className="contact__card"></div>
-                        <div className="contact__card"></div>
-                        <div className="contact__card"></div>
+                        <div className="contact__card email">
+                            <SiGmail/>
+                            <h3 className="contact__card-title">Email</h3>
+                            <span className="contact__card-data">user@gmail.com</span>
+                            <a href="mailto:examplemail@gmail.com.com" className="contact__button"
+                                > Write me{" "}
+                                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+                            </a>
+                        </div>
+                        <div className="contact__card whatsapp">
+                            <FaWhatsapp/>
+                            <h3 className="contact__card-title">Whatsapp</h3>
+                            <span className="contact__card-data">(###)###-####</span>
+                            <a href="https://api.whatsapp.com/send?phone=62214408789&text=Hello, more information!" className="contact__button"
+                                > Write me{" "}
+                                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+                            </a>
+                        </div>
+                        <div className="contact__card messenger">
+                            <FaFacebookMessenger/>
+                            <h3 className="contact__card-title">Messenger</h3>
+                            <span className="contact__card-data">fb: justinschoi93</span>
+                            <a href="https://m.me/1261262889" className="contact__button"
+                                > Write me{" "}
+                                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className="contact__content">
                     <h3 className="contact__title">Write to me about your project</h3>
-                    <form action="" className="contact__form">
+                    <form ref={form} action="" className="contact__form">
                         <div className="contact__form-div">
                             <label className="contact__form-tag">Name</label>
                             <input type="text" className="contact__form-input" name="name" placeholder="Write your name" />
@@ -30,6 +58,7 @@ const CONTACT = () => {
                             <textarea name="project" cols="30" rows="10" className="contact__form-input" placeholder="Write about your project" required="required"></textarea>
                         </div>
                         <button className="button button--flex">
+                            Send Message
                             <svg
                                 className="button__icon"
                                 xmlns="http://www.w3.org/2000/svg"
