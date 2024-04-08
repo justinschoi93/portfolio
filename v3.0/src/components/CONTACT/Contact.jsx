@@ -1,7 +1,7 @@
 import './contact.css';
 import { useRef } from 'react';
 import { SiGmail } from 'react-icons/si';
-import { FaWhatsapp, FaFacebookMessenger } from 'react-icons/fa';
+import { FaWhatsapp, FaFacebookMessenger, FaArrowRight } from 'react-icons/fa';
 
 const CONTACT = () => {
     const form = useRef();
@@ -19,7 +19,7 @@ const CONTACT = () => {
                             <span className="contact__card-data">user@gmail.com</span>
                             <a href="mailto:examplemail@gmail.com.com" className="contact__button"
                                 > Write me{" "}
-                                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+                                <FaArrowRight/>
                             </a>
                         </div>
                         <div className="contact__card whatsapp">
@@ -28,7 +28,7 @@ const CONTACT = () => {
                             <span className="contact__card-data">(###)###-####</span>
                             <a href="https://api.whatsapp.com/send?phone=62214408789&text=Hello, more information!" className="contact__button"
                                 > Write me{" "}
-                                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+                                <FaArrowRight/>
                             </a>
                         </div>
                         <div className="contact__card messenger">
@@ -37,7 +37,7 @@ const CONTACT = () => {
                             <span className="contact__card-data">fb: justinschoi93</span>
                             <a href="https://m.me/1261262889" className="contact__button"
                                 > Write me{" "}
-                                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+                                <FaArrowRight/>
                             </a>
                         </div>
                     </div>
@@ -79,7 +79,6 @@ const CONTACT = () => {
                         </button>
                     </form>
                 </div>
-
             </div>
         </section>
     )
