@@ -27,6 +27,21 @@
     text-align: center;
 }
 
+.contact__card-title,
+.contact__card-data {
+    font-size: var(--small-font-size);
+}
+
+.contact__card-title{
+    font-weight: var(--font-medium);
+}
+
+.contact__card-data {
+    display: block;
+    margin-bottom: var(--mb-0-75);
+}
+
+
 .contact__form {
     width: 360px;
 }
@@ -62,9 +77,27 @@
    z-index: 10;
 }
 
+.contact__form-area {
+    height: 11rem;
+}
+
 .contact__form-area textarea{
     resize: none;
 }
 
+.contact__button {
+    color: var(--text-color);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.25rem;
+}
 
+.contact__button-icon {
+    font-size: 1rem;
+    transition: 0.3s;
+}
 
+.contact__button:hover .contact__button-icon {
+    transform: translate(0.25rem);
+}
