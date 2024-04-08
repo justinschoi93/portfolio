@@ -6,7 +6,7 @@ import CONTACT from './components/CONTACT/CONTACT'
 // import Qualifications from './components/Qualifications/Qualifications';
 // import ScrollUp from './components/ScrollUp/ScrollUp';
 // import Services from './components/Services/Services';
-// import Skills from './components/Skills/Skills';
+import Skills from './components/skills/Skills';
 // import Testimonials from './components/Testimonials/Testimonials';
 import Footer from './components/footer/Footer';
 import './App.css'
@@ -18,14 +18,13 @@ function App() {
       <Header/>
       <Home/>
       <AboutMe/>
-      <CONTACT/>
-      {/* <PORTFOLIO/>
-      <Qualifications/>
-      <ScrollUp/>
-      <Services/>
       <Skills/>
-      <Testimonials/> 
-      */}
+      {/* <Qualifications/> */}
+      {/* <PORTFOLIO/> */}
+      {/* <ScrollUp/> */}
+      {/* <Services/> */}
+      {/* <Testimonials/>  */}
+      <CONTACT/>
       <Footer/>
     </>
   )
