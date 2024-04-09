@@ -1,6 +1,5 @@
 import './home.css';
-import jPinguino777 from '../../assets/jpinguino777.jpg';
-
+import { FaInstagram, FaGithub, FaLinkedin, FaArrowDown } from 'react-icons/fa';
 export default function Home () {
     return (
         <>
@@ -9,22 +8,23 @@ export default function Home () {
                     <div className="home__content grid">
                         <div className="home__social">
                             <a href="https://www.isntagram.com/" className="home__social-icon">
-                                <i className="uil_uil-instagram"></i>
+                                <FaInstagram className="home__social-icon"/>
                             </a>
                             <a href="https://github.com/justinschoi93" className="home__social-icon">
-                                <i className="uil uil-github-alt"></i>
+                                <FaGithub className="home__social-icon"/>
                             </a>
-                            <a href="https://linkedin.com/in/justinschoi93" className="uil uil-linkedin"></a>
+                            <a href="https://linkedin.com/in/justinschoi93" className="uil uil-linkedin">
+                                <FaLinkedin className="home__social-icon"/>
+                            </a>
                         </div>
-                        <div className="home__img">
-                            <img src={jPinguino777} alt="" />
-                        </div>
+                        <div className="home__img"></div>
                         <div className="home__data">
                             <div className="home__title">Justin Choi</div>
                             <div className="home__subtitle">Full Stack Web Developer</div>
                             <div className="home__description">I would describe myself as... Sharp. Competitive. Reliable. Writes good code. A great team player over all!</div>
-                            <div className="button button--flex">
-                                <a href="#contact" className="button__link">Say Hello</a>
+                            <button className="button button--flex">
+                                Say Hello
+                                <a href="#contact" className="button__link">                                </a>
                                 <svg
                                     className="button__icon"
                                     xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ export default function Home () {
                                     fill="var(--container-color)"
                                     ></path>
                                 </svg>
-                            </div>
+                            </button>
                         </div>
                     </div>
                     <div className="home__scroll">
@@ -82,8 +82,8 @@ export default function Home () {
                                     }}
                                 ></path>
                             </svg>
-                            <span className="home__scroll-name">Scroll Down</span>
-                            <i className="uil uil-arrow-down home__scroll-arrow"></i>
+                            <span className="home__scroll-text">Scroll Down</span>
+                            <FaArrowDown className="home__scroll-arrow"/>
                         </a>
                     </div>
                 </div>
