@@ -3,6 +3,7 @@
 }
 
 .home__content {
+    display: grid;
     grid-template-columns: 116px repeat(2, 1fr);
     padding-top: 5.5rem;
     column-gap: 2rem;
@@ -152,7 +153,11 @@
 /* For medium devices */
 @media screen and (max-width: 768px) {
     .home__content {
-      grid-template-columns: 0.5fr 3fr;
+        display: flex;
+        flex-direction: column;
+      /* grid-template-columns: 0.5fr 3fr; */
+      align-items: center;
+      justify-content: center;
       padding-top: 3.5rem;
     }
   

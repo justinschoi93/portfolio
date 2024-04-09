@@ -5,7 +5,7 @@ export default function Home () {
         <>
             <section className="home section" id="home">
                 <div className="home__container container grid">
-                    <div className="home__content grid">
+                    <div className="home__content">
                         <div className="home__social">
                             <a href="https://www.isntagram.com/" className="home__social-icon">
                                 <FaInstagram className="home__social-icon"/>
