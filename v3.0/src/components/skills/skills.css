@@ -9,6 +9,8 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    max-width: 1456px;
+
 }
 
 .skills__card {

@@ -5,7 +5,9 @@ import { MdHttp,
 import { FaHtml5,
     FaCss3,
     FaJs,
+    FaDatabase,
     FaRegCheckCircle,
+    FaRegClock,
     FaBootstrap,
     FaReact,
     FaNodeJs,
@@ -21,10 +23,12 @@ import {SiTailwindcss,
     SiMongodb,
     SiAuth0,
     SiShell,
-    SiEslint
+    SiEslint,
+    SiThealgorithms
                     } from 'react-icons/si';
 import { GrStorage,
-    GrGraphQl
+    GrGraphQl,
+    GrDocumentPerformance
                     } from 'react-icons/gr';
 import { VscJson } from 'react-icons/vsc';
 const Skills = () => {
@@ -34,6 +38,31 @@ const Skills = () => {
                 <h2 className="section__title">Skills</h2>
                 <p className="section__subtitle">{'My "toolbox," if you will...'}</p>
                 <div className="skills__content">
+                    <div className="skills__card">
+                        <h5 className="skills__card__title">Computer Science applied to Javascript</h5>
+                        <ul className="skills__list">
+                            <li className="skills__item">
+                                <SiThealgorithms className="skills__icon"/>
+                                <span>Algorithms (Searches & Sorts)</span>
+                            </li>
+                            <li className="skills__item">
+                                <GrDocumentPerformance className="skills__icon"/>
+                                <span>Performance</span>
+                            </li>
+                            <li className="skills__item">
+                                <FaRegClock className="skills__icon"/>
+                                <span>Time Complexity</span>
+                            </li>
+                            <li className="skills__item">
+                                <VscJson className="skills__icon"/>
+                                <span>Big O Notation</span>
+                            </li>
+                            <li className="skills__item">
+                                <FaDatabase className="skills__icon"/>
+                                <span>Data Structures</span>
+                            </li>
+                        </ul>
+                    </div>
                     <div className="skills__card">
                         <h5 className="skills__card__title">Browser Based Technologies</h5>
                         <ul className="skills__list">
