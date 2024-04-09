@@ -1,5 +1,32 @@
 import './skills.css'
-
+import { MdHttp,
+    MdOutlineHttps
+                 } from 'react-icons/md';
+import { FaHtml5,
+    FaCss3,
+    FaJs,
+    FaRegCheckCircle,
+    FaBootstrap,
+    FaReact,
+    FaNodeJs,
+    FaGithub,
+    FaMixcloud
+                    } from 'react-icons/fa';
+import { BiLogoHeroku,
+    BiInfinite
+                    } from 'react-icons/bi';
+import { DiJqueryLogo } from 'react-icons/di';
+import {SiTailwindcss,
+    SiMysql,
+    SiMongodb,
+    SiAuth0,
+    SiShell,
+    SiEslint
+                    } from 'react-icons/si';
+import { GrStorage,
+    GrGraphQl
+                    } from 'react-icons/gr';
+import { VscJson } from 'react-icons/vsc';
 const Skills = () => {
     return (
         <section className="skills section" id="skills">
@@ -11,43 +38,42 @@ const Skills = () => {
                         <h5 className="skills__card__title">Browser Based Technologies</h5>
                         <ul className="skills__list">
                             <li className="skills__item">
-                                <i className="fab fa-html5"></i>
+                                <FaHtml5 className="skills__icon"/>
                                 <span>HTML5</span>
                             </li>
                             <li className="skills__item">
-                                <i className=""></i>
+                                <FaCss3 className="skills__icon"/>
                                 <span>CSS3</span>
                             </li>
                             <li className="skills__item">
-                                <i className=""></i>
+                                <FaJs className="skills__icon"/>
                                 <span>Javascript</span>
                             </li>
                             <li className="skills__item">
-                                <i className=""></i>
-                                <span>jQuery</span>
+                                <DiJqueryLogo className="skills__icon"/>                          <span>jQuery</span>
                             </li>
                             <li className="skills__item">
-                                <i className=""></i>
+                                <FaRegCheckCircle className="skills__icon"/>
                                 <span>Responsive Design</span>
                             </li>
                             <li className="skills__item">
-                                <i className=""></i>
+                                <SiTailwindcss className="skills__icon"/>
                                 <span>Tailwind</span>
                             </li>
                             <li className="skills__item">
-                                <i className=""></i>
+                                <FaBootstrap className="skills__icon"/>
                                 <span>Bootstrap</span>
                             </li>
                             <li className="skills__item">
-                                <i className=""></i>
+                                <FaRegCheckCircle className="skills__icon"/>
                                 <span>Progressive Web Applications (PWAs)</span>
                             </li>
                             <li className="skills__item">
-                                <i className=""></i>
+                                <GrStorage className="skills__icon"/>
                                 <span>Local Storage / Session Storage / IndexedDB</span>
                             </li>
                             <li className="skills__item">
-                                <i className=""></i>
+                                <FaReact className="skills__icon"/>
                                 <span>React.js</span>
                             </li>
                         </ul>
@@ -56,11 +82,11 @@ const Skills = () => {
                         <h5 className="skills__card__title">Databases</h5>
                         <ul className="skills__list">
                             <li className="skills__item">
-                                <i className=""></i>
+                                <SiMysql className="skills__icon"/>
                                 <span>MySQL</span>
                             </li>
                             <li className="skills__item">
-                                <i className=""></i>
+                                <SiMongodb className="skills__icon"/>
                                 <span>MongoDB</span>
                             </li>
                         </ul>
@@ -69,16 +95,15 @@ const Skills = () => {
                         <h5 className="skills__card__title">Server Side Development</h5>
                         <ul className="skills__list">
                             <li className="skills__item">
-                                <i className=""></i>
+                                <SiAuth0 className="skills__icon"/>
                                 <span>User Authentication</span>
                             </li>
                             <li className="skills__item">
-                                <i className=""></i>
+                                <FaRegCheckCircle className="skills__icon"/>
                                 <span>Template Engines</span>
                             </li>
                             <li className="skills__item">
-                                <i className=""></i>
-                                <span>MERN Stack</span>
+                                <FaNodeJs className="skills__icon"/>                                <span>MERN Stack</span>
                                 <span>(MongoDB, Express.js, React.js, Node.js)</span>
                             </li>
                         </ul>
@@ -87,31 +112,31 @@ const Skills = () => {
                         <h5 className="skills__card__title">API Design</h5>
                         <ul className="skills__list">
                             <li className="skills__item">
-                                <i className=""></i>
+                                <FaRegCheckCircle className="skills__icon"/>
                                 <span>Client-Server Model</span>
                             </li>
                             <li className="skills__item">
-                                <i className=""></i>
+                                <FaMixcloud className="skills__icon"/>
                                 <span>API</span>
                             </li>
                             <li className="skills__item">
-                                <i className=""></i>
+                                <MdOutlineHttps className="skills__icon"/>
                                 <span>REST</span>
                             </li>
                             <li className="skills__item">
-                                <i className=""></i>
+                                <VscJson className="skills__icon"/>
                                 <span>JSON</span>
                             </li>
                             <li className="skills__item">
-                                <i className=""></i>
+                                <FaRegCheckCircle className="skills__icon"/>
                                 <span>AJAX (Fetch API)</span>
                             </li>
                             <li className="skills__item">
-                                <i className=""></i>
+                                <MdHttp className="skills__icon"/>
                                 <span>HTTP request methods</span>
                             </li>
                             <li className="skills__item">
-                                <i className=""></i>
+                                <GrGraphQl className="skills__icon"/>
                                 <span>GraphQL</span>
                             </li>
                         </ul>
@@ -120,31 +145,31 @@ const Skills = () => {
                         <h5 className="skills__card__title">Deployment and Delivery</h5>
                         <ul className="skills__list">
                             <li className="skills__item">
-                                <i className=""></i>
+                                <BiLogoHeroku className="skills__icon"/>
                                 <span>Heroku</span>
                             </li>
                             <li className="skills__item">
-                                <i className=""></i>
+                                <FaGithub className="skills__icon"/>
                                 <span>Git</span>
                             </li>
                             <li className="skills__item">
-                                <i className=""></i>
+                                <FaGithub className="skills__icon"/>
                                 <span>Github Pages</span>
                             </li>
                             <li className="skills__item">
-                                <i className=""></i>
+                                <SiShell className="skills__icon"/>
                                 <span>Shell Scripting</span>
                             </li>
                             <li className="skills__item">
-                                <i className=""></i>
+                                <FaRegCheckCircle className="skills__icon"/>
                                 <span>Unit Testing</span>
                             </li>
                             <li className="skills__item">
-                                <i className=""></i>
+                                <SiEslint className="skills__icon"/>
                                 <span>Linting</span>
                             </li>
                             <li className="skills__item">
-                                <i className=""></i>
+                                <BiInfinite className="skills__icon"/>
                                 <span>Continuous Integration</span>
                             </li>
                         </ul>
