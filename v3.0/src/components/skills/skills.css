@@ -12,8 +12,34 @@
 }
 
 .skills__card {
-    border: 1px solid rgba(0,0,0,0.3);
-    border-radius: 1rem;
-    margin: 10px;
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
 }
+
+.skills__list {
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: .75rem;
+    margin: 10px;
+    padding: 1.5rem;
+    color: var(--text-color);
+}
+
+.skills__icon {
+    margin-right: 10px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.skills__card__title {
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+    color: var(--title-color);
+    margin-bottom: var(--mb-1-5);
+}
+
+.skills__subtitle {
+    font-size: var(--tiny-font-size);
+}
+
