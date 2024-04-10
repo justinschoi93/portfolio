@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import "./header.css";
+import { AiOutlineAppstore } from "react-icons/ai";
 
 export default function Header () {
     //Will determine whether header sticks or scrolls
@@ -94,7 +95,7 @@ export default function Header () {
                     </i> 
                 </div>
                 <div className="nav__toggle" onClick={()=>showMenu(!Toggle)}>
-                    <i className="uil uil-apps"></i> 
+                    <AiOutlineAppstore className="nav__toggle-icon"/>
                 </div>
             </nav>
         </header>
