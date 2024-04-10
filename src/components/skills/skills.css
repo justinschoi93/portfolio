@@ -10,7 +10,8 @@
     align-items: center;
     justify-content: center;
     max-width: 1456px;
-
+    margin-left: 5px;
+    margin-right: 0;
 }
 
 .skills__card {
