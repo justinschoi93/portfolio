@@ -1,5 +1,6 @@
 import {useState, useEffect } from 'react';
 import projectsData from './projectsData';
+import { FaGithub } from 'react-icons/fa';
 import './portfolio.css';
 
 const PORTFOLIO = () => {
@@ -29,7 +30,7 @@ const PORTFOLIO = () => {
         <section className="portfolio__container">
             <div className="portfolio__header">
                 <h2 className="header__title">PORTFOLIO</h2>
-                <div className="header__subtitle">Things I've made</div>
+                <div className="header__subtitle">Recent Projects</div>
             </div>
             <nav className="portfolio__navbar">
                 <ul className="portfolio__navbar-list">
@@ -42,7 +43,18 @@ const PORTFOLIO = () => {
             <div className="projects__container">
                 {projects.map((project, index)=>(
                     <div className="project__card" key={index}>
-                        {project.name}
+                        <div className="project__header">
+                            <h4 className="project__title">{project.title}</h4>
+                            <h5 className="project__subtitle">{project.subtitle}</h5>
+                        </div>
+                        <div className="project__img">
+                            <img src={project.src} alt="project.src" />                        
+                        </div>
+                        <div className="project__link">
+                            <a href={project.link}>
+                                <i className="github-pages-icon"><FaGithub></FaGithub></i>    
+                            </a>
+                        </div>
                     </div>
                 ))}
             </div>

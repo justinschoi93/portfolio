@@ -16,18 +16,18 @@ const CONTACT = () => {
                         <div className="contact__card email">
                             <SiGmail/>
                             <h3 className="contact__card-title">Email</h3>
-                            <span className="contact__card-data">user@gmail.com</span>
+                            <span className="contact__card-data">justinschoi93@gmail.com</span>
                             <a href="mailto:examplemail@gmail.com.com" className="contact__button"
-                                > Write me{" "}
+                                > write me an email
                                 <FaArrowRight/>
                             </a>
                         </div>
                         <div className="contact__card whatsapp">
                             <FaWhatsapp/>
                             <h3 className="contact__card-title">Whatsapp</h3>
-                            <span className="contact__card-data">(###)###-####</span>
-                            <a href="https://api.whatsapp.com/send?phone=62214408789&text=Hello, more information!" className="contact__button"
-                                > Write me{" "}
+                            <span className="contact__card-data">(650)390-4159</span>
+                            <a href="https://call.whatsapp.com/voice/heG0aORM1eMohEzXlmfKF3" className="contact__button"
+                                > call/text me
                                 <FaArrowRight className="conact__button-icon"/>
                             </a>
                         </div>
@@ -36,7 +36,7 @@ const CONTACT = () => {
                             <h3 className="contact__card-title">Messenger</h3>
                             <span className="contact__card-data">fb: justinschoi93</span>
                             <a href="https://m.me/1261262889" className="contact__button"
-                                > Write me{" "}
+                                > message me
                                 <FaArrowRight className="conact__button-icon"/>
                             </a>
                         </div>
