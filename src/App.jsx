@@ -21,7 +21,7 @@ function App() {
         <Home/>
         <AboutMe/>
         <Skills/>
-        {/* <PORTFOLIO/> */}
+        <PORTFOLIO/>
         {/* <Qualifications/> */}
         {/* <Services/> */}
         {/* <Testimonials/>  */}
