@@ -3,18 +3,14 @@
 }
 
 .home__content {
-    display: flex;
-    flex-direction: column;
-    grid-template-columns: 1fr;
+    grid-template-columns: 116px repeat(2, 1fr);
     padding-top: 5.5rem;
     column-gap: 2rem;
     align-items: center;
-    justify-content: center;
 }
 
 .home__social {
     display: grid;
-    position: fixed;
     left: 20px;
     grid-template-columns: max-content;
     row-gap: var(--mb-1-5);
@@ -22,7 +18,7 @@
 }
 
 .home__social-icon {
-    font-size: 2.5rem;
+    font-size: 1.25rem;
     color: var(--title-color);
 }
 
@@ -167,7 +163,7 @@
 
     .home__img {
       order: initial;
-      /* justify-self: initial; */
+      justify-self: center;
       box-shadow: inset 0 0 0 6px rgb(255 255 255 / 30%);
       width: 200px;
       height: 200px;
@@ -202,3 +198,9 @@
         
     }
   }
+
+
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */

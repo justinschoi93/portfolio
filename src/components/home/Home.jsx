@@ -1,17 +1,18 @@
 import './home.css';
-import { FaInstagram, FaGithub, FaLinkedin, FaArrowDown } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaArrowDown } from 'react-icons/fa';
+import { FaThreads } from 'react-icons/fa6';
 export default function Home () {
     return (
         <>
             <section className="home section" id="home">
                 <div className="home__container container grid">
-                    <div className="home__content">
+                    <div className="home__content grid">
                         <div className="home__social">
-                            <a href="https://www.isntagram.com/" className="home__social-icon">
-                                <FaInstagram className="home__social-icon"/>
-                            </a>
                             <a href="https://github.com/justinschoi93" className="home__social-icon">
                                 <FaGithub className="home__social-icon"/>
+                            </a>
+                            <a href="https://www.isntagram.com/" className="home__social-icon">
+                                <FaThreads className="home__social-icon"/>
                             </a>
                             <a href="https://linkedin.com/in/justinschoi93" className="uil uil-linkedin">
                                 <FaLinkedin className="home__social-icon"/>
@@ -21,7 +22,7 @@ export default function Home () {
                         <div className="home__data">
                             <div className="home__title">Justin Choi</div>
                             <div className="home__subtitle">Full Stack Web Developer</div>
-                            <div className="home__description">I would describe myself as... Sharp. Competitive. Reliable. Writes good code. A great team player over all!</div>
+                            <div className="home__description">I would describe myself as... sharp. competitive and reliable. I write good code, and am a great team player over all!</div>
                             <button className="button button--flex">
                                 Say Hello
                                 <a href="#contact" className="button__link">                                </a>
