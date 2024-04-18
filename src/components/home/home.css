@@ -14,7 +14,6 @@
     left: 20px;
     grid-template-columns: max-content;
     row-gap: var(--mb-1-5);
-
 }
 
 .home__social-icon {
@@ -195,7 +194,7 @@
     }
 
     .home__social {
-        
+        height: auto;
     }
   }
 

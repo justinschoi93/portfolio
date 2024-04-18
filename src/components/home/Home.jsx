@@ -8,21 +8,21 @@ export default function Home () {
                 <div className="home__container container grid">
                     <div className="home__content grid">
                         <div className="home__social">
-                            <a href="https://github.com/justinschoi93" className="home__social-icon">
+                            <a href="https://github.com/justinschoi93" className="home__social-icon" target="_blank">
                                 <FaGithub className="home__social-icon"/>
                             </a>
-                            <a href="https://www.isntagram.com/" className="home__social-icon">
+                            <a href="https://threads.net/@justinschoi93" className="home__social-icon" target="_blank">
                                 <FaThreads className="home__social-icon"/>
                             </a>
-                            <a href="https://linkedin.com/in/justinschoi93" className="uil uil-linkedin">
+                            <a href="https://linkedin.com/in/justinschoi93" className="uil uil-linkedin" target="_blank">
                                 <FaLinkedin className="home__social-icon"/>
                             </a>
                         </div>
                         <div className="home__img"></div>
                         <div className="home__data">
                             <div className="home__title">Justin Choi</div>
-                            <div className="home__subtitle">Full Stack Web Developer</div>
-                            <div className="home__description">I would describe myself as... sharp. competitive and reliable. I write good code, and am a great team player over all!</div>
+                            <div className="home__subtitle">Software Engineer</div>
+                            <div className="home__description">I am a software engineer based in the Bay Area. I am very passionate and dedicated to my work.</div>
                             <button className="button button--flex">
                                 Say Hello
                                 <a href="#contact" className="button__link">                                </a>
