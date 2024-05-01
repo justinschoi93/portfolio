@@ -1,7 +1,7 @@
 import {useState, useEffect } from 'react';
 import projectsData from './projectsData';
 import { FaGithub } from 'react-icons/fa';
-import './p.css';
+import './portfolio.css';
 
 const PORTFOLIO = () => {
     
