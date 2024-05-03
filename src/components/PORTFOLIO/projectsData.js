@@ -1,11 +1,15 @@
+import BreakingBagImg from '../../assets/breakingbad.png';
+
 const projectsData = [
     {
         title: 'Breaking Bad Dashboard',
-        src: '',
+        src: BreakingBadImg,
         subtitle: "quote generator",
         type: 'Front-End',
         description: 'A dashboard that displays quotes by your favorite characters from Breaking Bad.',
-        link: 'https://justinschoi93.github.io/BreakingBad_Dashboard/'
+        app: 'https://justinschoi93.github.io/BreakingBad_Dashboard/',
+        github: 'https://github.com/justinschoi93/BreakingBad_Dashboard'
+        
     },
     {
         title: 'Trivia Mania',
@@ -13,7 +17,8 @@ const projectsData = [
         subtitle: "game",
         type: 'Full-Stack',
         description: '',
-        link: 'http://github.com/justinschoi93'
+        app: '',
+        github: 'http://github.com/justinschoi93'
     },
     {
         title: 'Widget Wizard',
@@ -21,7 +26,8 @@ const projectsData = [
         subtitle: "dashboard",
         type: 'Full-Stack',
         description: '',
-        link: 'http://github.com/justinschoi93/'
+        app: 'https://widgetwizard-2cc3931d9c30.herokuapp.com/',
+        github: 'https://github.com/justinschoi93/WidgetWizard'
     },
     {
         title: 'README.md Generator',
@@ -29,7 +35,8 @@ const projectsData = [
         subtitle: "cli tool",
         type: 'Back-End',
         description: '',
-        link: 'http://github.com/justinschoi93'
+        app: '',
+        github: 'http://github.com/justinschoi93'
     },
     {
         title: 'Password Generator',
@@ -37,7 +44,8 @@ const projectsData = [
         subtitle: "tool",
         type: 'Front-End',
         description: '',
-        link: 'http://github.com/justinschoi93'
+        app: '',
+        github: 'http://github.com/justinschoi93'
     },
     {
         title: 'Weather Forecast',

@@ -1,6 +1,7 @@
 import {useState, useEffect } from 'react';
 import projectsData from './projectsData';
 import { FaGithub } from 'react-icons/fa';
+import { SiCreatereactapp } from 'react-icons/si';
 import './portfolio.css';
 
 const PORTFOLIO = () => {
@@ -50,9 +51,18 @@ const PORTFOLIO = () => {
                         <div className="project__img">
                             <img src={project.src} alt="project.src" />                        
                         </div>
-                        <div className="project__link">
-                            <a href={project.link}>
-                                <i className="github-pages-icon"><FaGithub></FaGithub></i>    
+                        <div className="project__app">
+                            <a href={project.link} className="project__app-link">
+                                <i className="project__app-icon">
+                                    <SiCreatereactapp/>
+                                </i>
+                            </a>
+                        </div>
+                        <div className="project__github">
+                            <a href={project.github}>
+                                <i className="github-pages-icon">
+                                    <FaGithub/>
+                                </i>    
                             </a>
                         </div>
                     </div>
