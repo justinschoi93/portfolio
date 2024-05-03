@@ -52,14 +52,14 @@ const PORTFOLIO = () => {
                             <img src={project.src} alt="project.src" />                        
                         </div>
                         <div className="project__app">
-                            <a href={project.link} className="project__app-link">
+                            <a href={project.app} className="project__app-link" target="_blank">
                                 <i className="project__app-icon">
                                     <SiCreatereactapp/>
                                 </i>
                             </a>
                         </div>
                         <div className="project__github">
-                            <a href={project.github}>
+                            <a href={project.github} className="project__github-link"  target="_blank">
                                 <i className="github-pages-icon">
                                     <FaGithub/>
                                 </i>    

@@ -1,4 +1,4 @@
-import BreakingBagImg from '../../assets/breakingbad.png';
+import BreakingBadImg from '../../assets/breakingbad.png';
 
 const projectsData = [
     {
